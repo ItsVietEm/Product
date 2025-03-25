@@ -1,0 +1,103 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f5f5f5;
+}
+
+.container-fluid {
+  max-width: 1200px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+  display: flex;
+}
+
+.col-md-4,
+.col-md-8 {
+  padding: 10px;
+}
+
+h4 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: left; /* Aligns heading text to the left */
+}
+
+.form-group {
+  margin-bottom: 20px;
+  text-align: left; /* Aligns labels and form controls to the left */
+}
+
+label {
+  display: block; /* Ensures labels are block elements */
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+.react-tags__input {
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  padding: 10px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 5px;
+  text-align: left; /* Aligns text input text to the left */
+}
+
+button {
+  border-radius: 5px;
+}
+
+.btn-success {
+  background-color: #a78000;
+  border-color: #a78000;
+  width: 100%;
+}
+
+.btn-success:hover {
+  background-color: #d9b800;
+  border-color: #d9b800;
+}
+
+#search-button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.d-flex {
+  display: flex;
+  gap: 10px;
+}
+
+.react-tags__tag {
+  background: #007bff;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.react-tags__input {
+  flex: 1;
+  border: none;
+  outline: none;
+  padding: 5px;
+  text-align: left; /* Aligns text in tag input to the left */
+}
+
+.card {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,45 @@
+.trip-details-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+.trip-details-container h4 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.trip-section {
+  margin-bottom: 30px;
+}
+
+.trip-section h5 {
+  margin-bottom: 15px;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.trip-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.trip-item p {
+  margin: 0;
+  color: #555;
+  flex: 1;
+}
+
+.trip-item a {
+  color: #007bff;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.trip-item a:hover {
+  text-decoration: underline;
+}
